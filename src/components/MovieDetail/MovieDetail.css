@@ -1,0 +1,38 @@
+.card {
+  width: 60%;
+  margin: 0 auto;
+  background: #ccc;
+  color: #000;
+  font-family: "Philosopher", sans-serif;
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+
+.card--img {
+  margin-bottom: 20px;
+}
+
+.card--content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card--title {
+  margin-bottom: 18px;
+  font-size: 25px;
+}
+
+.card--date,
+.card--rating {
+  font-size: 17.5px;
+  margin-bottom: 15px;
+}
+
+.card--desc {
+  font-size: 17.5px;
+}

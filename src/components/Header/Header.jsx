@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./header.css";
+import "./Header.css";
 
-import MovieDetail from "./MovieDetail";
+import MovieDetail from "../MovieDetail/MovieDetail";
 
 const Header = () => {
   const [query, setQuery] = useState("");
@@ -31,14 +31,28 @@ const Header = () => {
     request();
   }, [searchQ]);
   return (
-    <div className="header">
-      <h1>Movie Search App</h1>
-      <form onSubmit={handleSubmit}>
-        <input type="text" value={query} onChange={handleChange} />
-        <button type="submit">Search</button>
-      </form>
+    <div className="app">
+      <div className="header">
+        <h1>Movie Search App</h1>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="text"
+            value={query}
+            placeholder="Avengers"
+            onChange={handleChange}
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
       {movies.map((movie) => (
-        <MovieDetail key={movie.id} title={movie.original_title} />
+        <MovieDetail
+          key={movie.id}
+          title={movie.original_title}
+          path={movie.poster_path}
+          releaseDate={movie.release_date}
+          rating={movie.vote_average}
+          desc={movie.overview}
+        />
       ))}
     </div>
   );
