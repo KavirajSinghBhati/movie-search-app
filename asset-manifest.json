@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KavirajSinghBhati/movie-search-app/static/css/main.c6df9ce4.css",
+    "main.js": "/KavirajSinghBhati/movie-search-app/static/js/main.db8f3abe.js",
+    "static/js/787.269438a4.chunk.js": "/KavirajSinghBhati/movie-search-app/static/js/787.269438a4.chunk.js",
+    "index.html": "/KavirajSinghBhati/movie-search-app/index.html",
+    "main.c6df9ce4.css.map": "/KavirajSinghBhati/movie-search-app/static/css/main.c6df9ce4.css.map",
+    "main.db8f3abe.js.map": "/KavirajSinghBhati/movie-search-app/static/js/main.db8f3abe.js.map",
+    "787.269438a4.chunk.js.map": "/KavirajSinghBhati/movie-search-app/static/js/787.269438a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6df9ce4.css",
+    "static/js/main.db8f3abe.js"
+  ]
+}
